@@ -1,0 +1,107 @@
+<html lang="ja"><head>
+
+	<meta http-equiv="X-UA-Compatible" content="requiresActiveX=true">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="imagetoolbar" content="no">
+	<meta name="format-detection" content="telephone=no">
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" type="image/gif" href="./images/favicon.gif">
+	<title>株式会社サングー SANGU マンション管理やビル管理、公共施設運営などをトータルサポート</title>	
+
+	<link rel="stylesheet" href="./css/default.css">
+	<link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body id="body">
+	<section id="l_top">
+		<header id="l_header" class="cf">
+	<h1><a class="header_logo" href="./index.html"><img src="./images/logo.png" alt="株式会社サングー SANGU"></a></h1>
+		<div class="header_tel">
+		<p>お電話でのお問い合わせ</p>
+		<p class="no">TEL<span>03-3493-1551</span></p>
+	</div><!-- header_tel -->
+	<ul class="header_navi">
+		<li><a class="m_company" href="./company.html">会社概要</a></li>
+		<li><a class="m_service" href="./service.html">事業紹介</a></li>
+		<li><a class="m_recruit" href="javascript:void(0)">採用情報</a></li>
+	</ul><!-- header_navi -->
+</header><!-- l_header -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+	$(function(){
+	$('.m_recruit').click(function(){
+		alert('現在、募集は行っておりません')
+	})
+});
+</script>		<section id="l_main">
+			<img src="./images/main_text.png" alt="もっと快適にもっと安全に入居者・来館者の切実な声に応えていくために">
+			<div class="button">More Massage</div>
+		</section><!-- l_main -->
+	</section><!-- l_top -->
+	<section id="l_our">
+		<div class="content">
+			<img class="our_text" src="./images/our_text.png" alt="人と環境に心づかいのある仕事が私たちの最大のサービスです。">
+			<ul class="cf">
+				<li><img src="./images/our1.png" alt="check"><p>仕事前には身だしなみをチェック。<br>言葉遣いやマナーにも気をつけています。</p></li>
+				<li><img src="./images/our2.png" alt="safety"><p>定期清掃時は出来るだけ、<br>支障のない時間帯に行い、<br>立看板等で注意を促しています。</p></li>
+				<li><img src="./images/our3.png" alt="environment"><p>環境にやさしいワックス・洗剤を使用。<br>周囲への影響を極力抑えています。</p></li>
+				<li class="clear"><img src="./images/our4.png" alt="master"><p>建物管理に関する法律や技術の習得に努め、<br>質の高いサービスを行っています。</p></li>
+				<li><img src="./images/our5.png" alt="sarving"><p>作業時に電気や水道をムダづかいしないよう、<br>徹底して気をつけています。</p></li>
+				<li><img src="./images/our6.png" alt="quality"><p>創業30年以上の信頼と実績。<br>更なるサービス品質の向上に努めています。</p></li>
+			</ul>
+		</div><!-- content -->
+	</section><!-- l_our -->
+	<section id="l_service">
+		<div class="content">
+			<h2>SERVICE</h2>
+			<ul class="cf">
+				<li><a href="service.php#l_facility"><img src="./images/service1.png" alt="設備管理業務"></a><p>設備管理業務</p></li>
+				<li><a href="service.php#l_cleaning"><img src="./images/service2.png" alt="清掃業務"></a><p>清掃業務</p></li>
+				<li><a href="service.php#l_health"><img src="./images/service3.png" alt="建築物衛星管理業務"></a><p>建築物衛星管理業務</p></li>
+				<li class="second"><a href="service.php#l_electrical"><img src="./images/service5.png" alt="電気工事・点検業務"></a><p>電気工事・点検業務</p></li>
+				<li><a href="service.php#l_other"><img src="./images/service6.png" alt="その他"></a><p>その他</p></li>
+			</ul>
+		</div><!-- content -->
+	</section><!-- l_service -->
+	<section id="l_recruit">
+		<div class="content">
+			<h2>RECRUIT</h2>
+			<section class="recruit_inner cf">
+				<a href="javascript:void(0)" class="recruit">
+					<img src="./images/recruit_text.png" alt="採用情報">
+					<p>人間として大きく成長したい皆様からの<br>ご応募をおまちしております。</p>
+				</a><!-- recruit -->
+				<a href="company.php" class="company">
+					<img src="./images/company_text.png" alt="会社概要">
+					<p>建物管理も人と環境への配慮が<br>求められる時代です。</p>
+				</a><!-- company -->
+			</section><!-- recruit_inner -->
+		</div><!-- content -->
+	</section><!-- l_recruit -->
+	<footer id="l_footer">
+	<a href="policy.php">プライバシーポリシー</a>
+	<address>Copyright©SANGU inc. All Rights Reserved.</address>
+</footer><!-- l_footer -->	<!--ホスティングは最新版を使用-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/scroll.js"></script>
+	
+	<!--バックグラウンドサイズ-->
+	<!--[if lt IE 9]>	
+	<script src="./js/jquery.backgroundSize.js"></script>
+	<script>
+		$(function () {
+			//background-sizeを適用させたい要素
+			$('#l_top').css('background-size', 'cover');
+		});
+	</script>
+	<![endif]-->
+
+	<script>
+	$(function(){
+		$('#l_recruit').find('.recruit').click(function(){
+			alert('現在、募集は行っておりません')
+		})
+	});
+	</script>
+
+</body></html>

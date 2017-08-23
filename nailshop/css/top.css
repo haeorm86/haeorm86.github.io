@@ -1,0 +1,28 @@
+@import "base.css";
+
+#main_img {
+	width: 100%;
+	background: url("../img/top/main_img_bg.png") repeat;
+}
+
+#main_img img {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#bg_wood {
+	width: 100%;
+	height: 40px;
+	background: url("../img/base/bg_wood.png") repeat;
+}
+
+#course_menu {
+	padding: 20px 20px 0 20px;
+}
+
+#course_menu a {
+	width: 220px;
+	margin: 0 50px;
+	display: block;
+	float: left;
+}

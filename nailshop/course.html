@@ -1,0 +1,187 @@
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script type="text/javascript">
+     
+	  $(document).ready(function(){
+         $("#header").load("header.html")
+         $("#footer").load("footer.html")
+      
+	  });
+
+</script>    
+
+
+<div id="header"></div>
+<div id="wrapper">
+<img class="line" src="./images/course/line.png" alt="横線">
+<img class="center mt20" src="./images/course/title.png" alt="コース選択">
+<div class="course clearfix">
+<p class="index">ケア＆コース</p>
+<div class="select_care">
+<p>ジェルオフのみ</p>
+<p>30分</p>
+<p>2000円</p>
+<p class="no">11</p>
+</div><!-- select_care -->
+<div class="select_care">
+<p>スカルプオフのみ</p>
+<p>60分</p>
+<p>4000円</p>
+<p class="no">12</p>
+</div><!-- select_care -->
+<div class="select_care">
+<p>スカルプ付け替えオフ</p>
+<p>60分</p>
+<p>3000円</p>
+<p class="no">13</p>
+</div><!-- select_care -->
+<div class="select_care">
+<p>ジェル付け替えオフ他店</p>
+<p>30分</p>
+<p>1500円</p>
+<p class="no">14</p>
+</div><!-- select_care -->
+<div class="select_care">
+<p>ジェル付け替えオフ当店</p>
+<p>30分</p>
+<p>1000円</p>
+<p class="no">15</p>
+</div><!-- select_care -->
+<div class="select_water">
+<p>ウォーターケア</p>
+<p>0分</p>
+<p>1000円</p>
+<p class="no">21</p>
+</div><!-- select_water -->
+</div><!-- course -->
+<div class="course clearfix">
+<p class="index">ジェル</p>
+<div class="select_gel">
+<p>ワンカラー（ラメ・グラ）</p>
+<p>60分</p>
+<p>4500円</p>
+<p class="no">31</p>
+</div><!-- select_gel -->
+<div class="select_gel">
+<p>フレンチ（ラメ・ライン・カラグラ）</p>
+<p>90分</p>
+<p>5500円</p>
+<p class="no">32</p>
+</div><!-- select_gel -->
+</div><!-- course -->
+<div class="course clearfix">
+<p class="index">アート</p>
+<div class="select_art">
+<p>2本アート</p>
+<p>90分</p>
+<p>5980円</p>
+<p class="no">41</p>
+</div><!-- select_art -->
+<div class="select_art">
+<p>4本アート</p>
+<p>90分</p>
+<p>6980円</p>
+<p class="no">42</p>
+</div><!-- select_art -->
+<div class="select_art">
+<p>アート（多め）</p>
+<p>120分</p>
+<p>7980円</p>
+<p class="no">43</p>
+</div><!-- select_art -->
+</div><!-- course -->
+<div class="course clearfix">
+<p class="index">フット</p>
+<div class="select_foot">
+<p>シンプルコース</p>
+<p>60分</p>
+<p>5980円</p>
+<p class="no">51</p>
+</div><!-- select_foot -->
+<div class="select_foot">
+<p>親指アート</p>
+<p>90分</p>
+<p>6980円</p>
+<p class="no">52</p>
+</div><!-- select_foot -->
+<div class="select_foot">
+<p>4本アート</p>
+<p>90分</p>
+<p>7980円</p>
+<p class="no">53</p>
+</div><!-- select_foot -->
+</div><!-- course -->
+<div class="course clearfix">
+<p class="index">長さ出し</p>
+<div class="select_length">
+<p>スカルプ</p>
+<p>10分 / 本</p>
+<select id="length1">
+<option value="-">- 本</option>
+<option value="1">1本</option>
+<option value="2">2本</option>
+<option value="3">3本</option>
+<option value="4">4本</option>
+<option value="5">5本</option>
+<option value="6">6本</option>
+<option value="7">7本</option>
+<option value="8">8本</option>
+<option value="9">9本</option>
+<option value="10">10本</option>
+</select>
+<p class="number_price">- 円</p>
+</div><!-- select_length -->
+<div class="select_length">
+<p>チップ</p>
+<p>5分 / 本　（10本 60分）</p>
+<select id="length2">
+<option value="-">- 本</option>
+<option value="1">1本</option>
+<option value="2">2本</option>
+<option value="3">3本</option>
+<option value="4">4本</option>
+<option value="5">5本</option>
+<option value="6">6本</option>
+<option value="7">7本</option>
+<option value="8">8本</option>
+<option value="9">9本</option>
+<option value="10">10本</option>
+</select>
+<p class="number_price">- 円</p>
+</div><!-- select_length -->
+</div><!-- course -->
+<div id="result" class="clearfix">
+<div id="selected_course">
+<div class="selected">
+</div><!-- selected -->
+<div class="selected">
+</div><!-- selected -->
+<div class="selected">
+</div><!-- selected -->
+<div class="selected">
+</div><!-- selected -->
+<div class="selected">
+</div><!-- selected -->
+<div class="selected">
+</div><!-- selected -->
+</div><!-- selected_course -->
+<div id="total">
+<table>
+<tbody><tr><th>コース金額</th><td id="course_price">0円</td></tr>
+<tr><th>消費税</th><td id="tax">0円</td></tr>
+<tr class="time"><th>所要時間</th><td id="time">0分</td></tr>
+<tr class="sum"><th>合計金額</th><td id="sum_price">0円</td></tr>
+</tbody></table>
+</div><!-- total -->
+</div><!-- result -->
+<form action="day.php" method="POST">
+<input type="hidden" name="course" value="">
+<input type="hidden" name="all_time" value="">
+<input type="hidden" name="all_price" value="">
+<input type="submit" value="">
+</form>
+<img class="center mt20" src="./images/course/illust1_bottom.png" alt="かざり">
+<img class="line" src="./images/course/line.png" alt="横線">
+</div>
+
+<div id="footer"></div>
