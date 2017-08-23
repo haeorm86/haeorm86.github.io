@@ -13,7 +13,7 @@ h2 {
 	color: #237abd;
 	font-size: 28px;
 	text-align: center;
-	background-image: url("../img/base/index_bg.png");
+	background-image: url("../images/index_bg.png");
 	background-repeat: no-repeat;
 	background-position: 50% 100%;
 	letter-spacing: 5px;
@@ -28,7 +28,7 @@ h2 {
 #l_top {
 	width: 100%;
 	height: 100%;
-	background-image: url("../img/index/bg.png");
+	background-image: url("../images//bg.png");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -228,11 +228,11 @@ img.our_text {
 }
 
 .recruit {
-	background: url("../img/index/recruit.png") no-repeat;
+	background: url("../images/recruit.png") no-repeat;
 }
 
 .company {
-	background: url("../img/index/company.png") no-repeat;
+	background: url("../images/company.png") no-repeat;
 }
 
 .recruit img, .company img {
