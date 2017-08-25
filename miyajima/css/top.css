@@ -1,0 +1,295 @@
+@import "base.css";
+
+#eye_catch {
+	width: 100%;
+	height: 100vh;
+	background: url("./images/main1.jpg") no-repeat;
+	background-size: 120%;
+	background-position: center center;
+}
+
+#mask {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+
+#catch_copy {
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	top: calc(50% - 100px);
+	left: 0;
+	display: none;
+}
+
+#catch_copy p {
+	font-size: 80px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	line-height: 100px;
+}
+
+#main_img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	background-image: url("../images/main3_left.png"), url("../images/main3_right.png");
+	background-position: left top, right bottom;
+	background-repeat: no-repeat;
+	background-size: auto 100%, auto 100%;
+}
+
+#main_img img.logo {
+	width: 25%;
+	position: absolute;
+	left: 37.5%;
+	top: 40%;
+}
+
+#mask {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 9998;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#work {
+	background-image: url("../images/work_bg.png");
+	background-attachment: fixed;
+	background-size: 1920px auto;
+	background-repeat: no-repeat;
+	padding: 200px 0 100px 0;
+	background-position: center center;
+}
+
+#work_text {
+	width: 50%;
+	float: right;
+}
+
+#work_text p {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+#work_text p.index {
+	font-size: 24px;
+	line-height: 50px;
+}
+
+#area {
+	width: 100%;
+	padding: 200px 0 100px 0;
+	position: relative;
+}
+
+#area p.index {
+	font-size: 36px;
+	line-height: 60px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#area #pict1 {
+	position: absolute;
+	top: 150px;;
+	left: calc(50% + 100px);
+	width: 80px;
+}
+
+#recruite {
+	background-image: url("../images/recruite_bg.png");
+	background-attachment: fixed;
+	background-size: 1920px;
+	background-repeat: no-repeat;
+	padding: 200px 0 100px 0;
+	background-position: center center;
+}
+
+#recruite p.index {
+	color: #fff;
+	font-size: 36px;
+	line-height: 60px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#recruite p.sub_index {
+	color: #fff;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 0 auto;
+	width: 200px;
+	text-align: center;
+}
+
+#recruite #box_area {
+	width: 640px;
+	margin: 20px auto;
+}
+
+#box_area p {
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+#recruite .box {
+	width: 300px;
+	height: 300px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	float: left;
+	margin: 10px;
+}
+
+#recruite .box2 {
+	clear: both;
+	width: 620px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	float: left;
+	margin: 10px;
+}
+
+#recruite .box2 .detail {
+	width: 50%;
+	float: left;
+}
+
+#company {
+	padding: 200px 0 100px 0;
+	position: relative;
+}
+
+#company #pict2 {
+	position: absolute;
+	top: 270px;;
+	left: calc(50% - 400px);
+	width: 80px;
+}
+
+#company p.index {
+	text-align: center;
+	font-size: 36px;
+	line-height: 60px;
+	font-weight: bold;
+	padding: 20px 0;
+}
+
+#company table {
+	width: 780px;
+	margin: 0 auto;
+}
+
+#company table tr {
+	height: 50px;
+}
+
+#company table tr th {
+	text-align: center;
+	width: 200px;
+}
+
+#company table tr td {
+	padding-left: 20px;
+}
+
+#contact {
+	padding: 200px 0 100px 0;
+	position: relative;
+}
+
+#contact #pict3 {
+	position: absolute;
+	top: 170px;
+	left: calc(50% + 120px);
+	width: 80px;
+}
+
+#contact p.index {
+	text-align: center;
+	font-size: 36px;
+	line-height: 60px;
+	font-weight: bold;
+	padding: 20px 0;
+}
+
+#contact p#check_alert {
+	color: #f33;
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+	display: none;
+}
+
+#flip {
+	height: 460px;
+}
+
+#contact table {
+	width: 780px;
+	margin: 0 auto;
+}
+
+#contact table tr {
+	height: 40px;
+}
+
+#contact table tr th {
+	text-align: center;
+	width: 200px;
+}
+
+#contact table tr td {
+	padding-left: 20px;
+	height: 40px;
+}
+
+#contact table tr td input[type="text"] {
+	width: 90%;
+	line-height: 24px;
+	padding-left: 20px;
+}
+
+#contact table tr td textarea {
+	width: 90%;
+	height: 150px;
+	padding: 10px 20px;
+	resize: none;
+}
+
+#contact #send {
+	width: 178px;
+	margin: 50px auto 0 auto;
+	cursor: pointer;
+}
+
+#thx {
+	padding-top: 50px;
+}
+
+#thx p {
+	text-align: center;
+	font-size: 14px;
+	line-height: 40px;
+}
+
+#map_canvas {
+	width: 100%;
+	height: 450px;
+	border-top: 2px solid #acf;
+	border-bottom: 2px solid #acf;
+}

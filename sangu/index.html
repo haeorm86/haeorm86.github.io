@@ -32,10 +32,22 @@
 	$('.m_recruit').click(function(){
 		alert('現在、募集は行っておりません')
 	})
+
+
+	$('.button').click(function() {
+	var position = $("#l_our").offset().top;
+		$('body,html').animate({scrollTop:position}, 500, 'swing');
+		return false;
+	});
+
 });
+
+
+
+
 </script>		<section id="l_main">
 			<img src="./images/main_text.png" alt="もっと快適にもっと安全に入居者・来館者の切実な声に応えていくために">
-			<div class="button">More Massage</div>
+			<div class="button"><!--<a href="#l_our">-->More Massage<!--</a>--></div>
 		</section><!-- l_main -->
 	</section><!-- l_top -->
 	<section id="l_our">
@@ -55,11 +67,11 @@
 		<div class="content">
 			<h2>SERVICE</h2>
 			<ul class="cf">
-				<li><a href="service.php#l_facility"><img src="./images/service1.png" alt="設備管理業務"></a><p>設備管理業務</p></li>
-				<li><a href="service.php#l_cleaning"><img src="./images/service2.png" alt="清掃業務"></a><p>清掃業務</p></li>
-				<li><a href="service.php#l_health"><img src="./images/service3.png" alt="建築物衛星管理業務"></a><p>建築物衛星管理業務</p></li>
-				<li class="second"><a href="service.php#l_electrical"><img src="./images/service5.png" alt="電気工事・点検業務"></a><p>電気工事・点検業務</p></li>
-				<li><a href="service.php#l_other"><img src="./images/service6.png" alt="その他"></a><p>その他</p></li>
+				<li><a href="service.html#l_facility"><img src="./images/service1.png" alt="設備管理業務"></a><p>設備管理業務</p></li>
+				<li><a href="service.html#l_cleaning"><img src="./images/service2.png" alt="清掃業務"></a><p>清掃業務</p></li>
+				<li><a href="service.html#l_health"><img src="./images/service3.png" alt="建築物衛星管理業務"></a><p>建築物衛星管理業務</p></li>
+				<li class="second"><a href="service.html#l_electrical"><img src="./images/service5.png" alt="電気工事・点検業務"></a><p>電気工事・点検業務</p></li>
+				<li><a href="service.html#l_other"><img src="./images/service6.png" alt="その他"></a><p>その他</p></li>
 			</ul>
 		</div><!-- content -->
 	</section><!-- l_service -->
@@ -71,7 +83,7 @@
 					<img src="./images/recruit_text.png" alt="採用情報">
 					<p>人間として大きく成長したい皆様からの<br>ご応募をおまちしております。</p>
 				</a><!-- recruit -->
-				<a href="company.php" class="company">
+				<a href="company.html" class="company">
 					<img src="./images/company_text.png" alt="会社概要">
 					<p>建物管理も人と環境への配慮が<br>求められる時代です。</p>
 				</a><!-- company -->
@@ -79,23 +91,11 @@
 		</div><!-- content -->
 	</section><!-- l_recruit -->
 	<footer id="l_footer">
-	<a href="policy.php">プライバシーポリシー</a>
 	<address>Copyright©SANGU inc. All Rights Reserved.</address>
 </footer><!-- l_footer -->	<!--ホスティングは最新版を使用-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script type="text/javascript" src="./js/scroll.js"></script>
 	
-	<!--バックグラウンドサイズ-->
-	<!--[if lt IE 9]>	
-	<script src="./js/jquery.backgroundSize.js"></script>
-	<script>
-		$(function () {
-			//background-sizeを適用させたい要素
-			$('#l_top').css('background-size', 'cover');
-		});
-	</script>
-	<![endif]-->
-
 	<script>
 	$(function(){
 		$('#l_recruit').find('.recruit').click(function(){

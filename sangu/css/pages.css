@@ -1,0 +1,295 @@
+/* ‹¤’Ê */
+.content{
+	width: 920px;
+	margin: 0 auto;
+}
+
+h2 {
+	color: #237abd;
+	font-size: 28px;
+	text-align: center;
+	background-image: url("../images/index_bg.png");
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+	letter-spacing: 5px;
+	padding-bottom: 20px;
+}
+
+#l_header {
+	max-width: 1140px;
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	padding-top: 20px;
+	border-bottom: 1px solid #9a9a9a;
+}
+
+.header_logo {
+	float: left;
+	padding: 10.5px;
+}
+
+.header_logo img {
+	display: block;
+}
+
+.header_navi {
+	float: right;
+	height: 16px;
+	padding: 29px 40px 0 0;
+}
+
+.header_navi li { 
+	float: left;
+	border-right: 1px solid #000;
+	height: 16px;
+	padding: 0 20px;
+}
+
+.header_navi li:first-child { 
+	border-left: 1px solid #000;
+}
+
+.header_navi li a {
+	color: #000;
+	display: block;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.header_navi li a:hover {
+	border-bottom: 1px solid #237abd;
+}
+
+.header_navi li a.is_active {
+	color: #237abd;
+}
+
+.header_tel {
+	float: right;
+	height: 45px;
+}
+
+.header_tel p {
+	color: #000;
+	font-size: 14px;
+	line-height: 15px;
+	text-align: right;
+}
+
+.header_tel p.no {
+	line-height: 35px;
+}
+
+.header_tel p span {
+	font-size: 26px;
+	padding-left: 5px;
+}
+
+#l_footer {
+	background-color: #fff;
+	padding: 20px;
+	font-size: 14px;
+}
+
+#l_footer a {
+	text-align: center;
+	color: #000;
+	display: block;
+	width: 150px;
+	margin: 0 auto 20px auto;
+	border-bottom: 1px solid #fff;
+}
+
+#l_footer a:hover {
+	border-bottom: 1px solid #237abd;
+}
+
+address {
+	text-align: center;
+	color: #000;
+}
+
+/* ‰ïŽÐŠT—v */
+#l_company {
+	margin-top: 50px;
+}
+
+#l_company table {
+	border-top: 1px solid #e0e0e0;
+	margin-top: 50px;
+	width: 100%;
+}
+
+#l_company table tr {
+	height: 75px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+#l_company table tr th {
+	width: 160px;
+	padding: 25px 0;
+	line-height: 25px;
+	text-align: left;
+	font-weight: normal;
+	vertical-align: top;
+}
+
+#l_company table tr td {
+	line-height: 25px;
+	padding: 25px 0;
+}
+
+/* ƒŠƒNƒ‹[ƒg */
+#l_recruit {
+	margin-top: 50px;
+}
+
+#l_recruit h3 {
+	color: #237abd;
+	line-height: 40px;
+	border-bottom: 1px solid #237abd;
+	font-size: 20px;
+	padding-left: 5px;
+}
+
+#l_recruit img {
+	margin: 50px auto;
+	display: block;
+}
+
+#l_recruit table {
+	margin-top: 50px;
+	width: 100%;
+}
+
+#l_recruit table tr {
+	height: 75px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+#l_recruit table tr th {
+	width: 160px;
+	padding: 25px 0;
+	line-height: 25px;
+	text-align: left;
+	font-weight: normal;
+	vertical-align: top;
+}
+
+#l_recruit table tr td {
+	line-height: 25px;
+	padding: 25px 0;
+}
+
+/* ƒvƒ‰ƒCƒoƒV[ƒ|ƒŠƒV[ */
+#l_policy {
+	margin-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+#l_policy h3 {
+	font-weight: bold;
+	border-bottom: 1px solid #e0e0e0;
+	margin: 40px 0 15px 0;
+}
+
+#l_policy p {
+	line-height: 28px;
+}
+
+/* ƒT[ƒrƒX */
+#l_service {
+	margin-top: 50px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+#l_facility {
+	margin-top: 50px;
+}
+
+.service_detail {
+	height: 139px;
+	padding: 60.5px 0;
+	border-top: 1px solid #e0e0e0;
+	position: relative;
+	z-index: 5;
+}
+
+.service_bg {
+	position: absolute;
+	z-index: -5;
+	bottom: 0;
+}
+
+.service_photo {
+	float: left;
+	margin-right: 30px;
+}
+
+.service_description {
+	width: 750px;
+	float: left;
+}
+
+.service_text {
+	height: 24px;
+}
+
+.service_detail p {
+	color: #237abd;
+	margin-top: 20px;
+}
+
+.service_detail ul {
+	margin-top: 20px;
+}
+
+.service_detail ul li {
+	float: left;
+	line-height: 30px;
+	margin-right: 15px;
+}
+
+.service_detail ul li:before {
+	content: "";
+	display: block;
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-top: 6px;
+	margin-right: 5px;
+	background-color: #2279be;
+	border-radius: 50%;
+}
+
+#l_facility .service_bg {
+	left: -147px;
+}
+
+#l_cleaning .service_bg {
+	right: -129px;
+}
+
+#l_health .service_bg {
+	left: -159px;
+}
+
+#l_electrical .service_bg {
+	right: -154px;
+}
+
+#l_other .service_bg {
+	left: -168px;
+}
+
+@media screen and (max-width:1240px) {
+	#l_facility .service_bg, #l_health .service_bg, #l_other .service_bg {
+		left: 0;
+	}
+	
+	#l_cleaning .service_bg, #l_electrical .service_bg {
+		right: 0;
+	}
+}
