@@ -1,0 +1,25 @@
+#map {
+	position: relative;
+}
+
+#address {
+	position: absolute;
+	bottom: 0;
+	left: 50px;
+}
+
+#address p {
+	font-size: 14px;
+	line-height: 20px;
+	color: #555;
+}
+
+#address p.shop {
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+#address p.index {
+	text-align: center;
+	margin-bottom: 20px;
+}

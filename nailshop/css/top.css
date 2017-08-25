@@ -1,8 +1,6 @@
-@import "base.css";
-
 #main_img {
 	width: 100%;
-	background: url("../img/top/main_img_bg.png") repeat;
+	/*background: url("../images/top/main_img_bg.png") repeat; */
 }
 
 #main_img img {
@@ -11,9 +9,11 @@
 }
 
 #bg_wood {
-	width: 100%;
+/*	width: 100%; */
+	width: 1000px;
+	margin: 0 auto;
 	height: 40px;
-	background: url("../img/base/bg_wood.png") repeat;
+	background: url("../images/base/bg_wood.png") repeat;
 }
 
 #course_menu {
